@@ -347,7 +347,7 @@ function copyAllError() {
                           <p v-for="w in item.word" :key="w">
                             <a
                               class="hover:underline" :title="`在剑桥词典中查询 ${w}`" target="_blank"
-                              :href="`https://www.quora.com/search?q={w}&type=question`"
+                              :href="`https://www.quora.com/search?q=${w}&type=question`"
                             >{{ w }}</a>
                           </p>
 
