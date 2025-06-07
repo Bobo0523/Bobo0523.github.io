@@ -347,7 +347,7 @@ function copyAllError() {
                           <p v-for="w in item.word" :key="w">
                             <a
                               class="hover:underline" :title="`在剑桥词典中查询 ${w}`" target="_blank"
-                              :href="`https://filmot.com/search/${w}/1?channelID=UCAuUUnT6oDeKwE6v1NGQxug%2CUCN7B-QD0Qgn2boVH5Q0pOWg%2CUC16niRr50-MSBwiO3YDb3RA%2CUCCj956IF62FbT7Gouszaj9w%2CUCKgpamMlm872zkGDcBJHYDg%2CUCeTVoczn9NOZA9blls3YgUg%2CUCHaHD477h-FeBbVh9Sh7syA%2CUCvn_XCl_mgQmt3sD753zdJA%2CUCTRHegh7UqWuKRymXoqzbzA%2CUCKyTokYo0nK2OA-az-sDijA%2CUCZJJTxA36ZPNTJ1WFIByaeA&excludeCategory=30%2C14%2C8&lang=en&searchManualSubs=1&sortField=viewcount&sortOrder=desc&gridView=1&`"
+                              :href="`https://www.quora.com/search?q={w}&type=question`"
                             >{{ w }}</a>
                           </p>
 
